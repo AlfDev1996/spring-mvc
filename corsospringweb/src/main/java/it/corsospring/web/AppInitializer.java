@@ -18,7 +18,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
 		return new Class<?>[] {WebConfig.class};
 	}
-
+	
 	@Override
 	protected String[] getServletMappings() {
 		//Tutte le richiesta verso la web app vanno gestite dalla dispatcher Servlet
